@@ -1,0 +1,419 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url(Fonts/montserrat-black-webfont.woff) format("woff"),
+    url(Fonts/montserrat-black-webfont.woff2) format("woff2"),
+    url(Fonts/Montserrat-Regular.ttf) format("true type");
+}
+/*Основные обознвачения*/
+.w100s {
+  width: 100%;
+}
+/*Задние фоны страницы*/
+.head__bg {
+  background-color: rgb(233, 233, 233);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 670px;
+}
+.aboutUs__bg {
+  background: white;
+  position: absolute;
+  top: 670px;
+  left: 0px;
+  width: 100%;
+  height: 420px;
+}
+/*Head*/
+.head__stickymenu {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 300;
+}
+.head__picture__logo {
+  position: absolute;
+  left: 98px;
+  top: 38px;
+  width: 31px;
+  height: 25px;
+}
+.head__buttons {
+  position: absolute;
+  left: 654px;
+  top: 45px;
+}
+.head__button {
+  text-decoration: none;
+  color: black;
+  padding: 1rem;
+  font-size: 12px;
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  line-height: 2;
+}
+.head__button__home {
+  color: rgb(16, 201, 195);
+}
+.head__banner__bigtext {
+  font-size: 38px;
+  font-family: "Montserrat";
+  color: rgb(29, 29, 29);
+  line-height: 1.263;
+  text-align: left;
+  position: absolute;
+  left: 761.781px;
+  top: 240.203px;
+}
+.head__banner__text {
+  font-size: 18px;
+  font-family: "Nunito Sans";
+  color: rgb(184, 181, 181);
+  line-height: 1.556;
+  text-align: left;
+  position: absolute;
+  left: 767.406px;
+  top: 303.651px;
+  z-index: 10;
+}
+.head__banner__button {
+  position: absolute;
+  font-size: 12px;
+  font-family: "Montserrat";
+  color: rgb(120, 120, 120);
+  text-transform: uppercase;
+  text-align: left;
+  left: 813.422px;
+  top: 444px;
+  text-decoration: none;
+  z-index: 10;
+}
+.head__banner__button__bg {
+  position: absolute;
+  top: 417px;
+  left: 768px;
+  width: 180px;
+  height: 54px;
+  background: rgb(16, 201, 195);
+  border: 5px solid rgb(16, 201, 195);
+  border-radius: 2px;
+  text-decoration: none;
+}
+.head__banner__button__bg:hover {
+  background: white;
+}
+/*About Us*/
+.aboutUs__bg {
+  background: white;
+  width: 100%;
+  height: 421px;
+}
+.aboutUs__bigtext {
+  font-size: 30px;
+  font-family: "Montserrat";
+  color: rgb(25, 25, 25);
+  line-height: 2;
+  text-align: center;
+  position: absolute;
+  left: 616.002px;
+  top: 751px;
+}
+.aboutUs__text {
+  font-size: 16px;
+  font-family: "Nunito Sans";
+  color: rgb(120, 120, 120);
+  line-height: 1.5;
+  text-align: center;
+  position: absolute;
+  left: 388px;
+  top: 850.86px;
+  z-index: 218;
+}
+.aboutUs__image {
+  position: absolute;
+  top: 952px;
+  left: 574px;
+  text-align: center;
+}
+/*Professional Skills*/
+.professionalSkills__bgl {
+  background: white;
+  position: absolute;
+  top: 1089px;
+  left: 0px;
+  width: 50%;
+  height: 568px;
+}
+.professionalSkills__bgr {
+  background: rgb(233, 233, 233);
+  position: absolute;
+  top: 1089px;
+  left: 50%;
+  width: 50%;
+  height: 568px;
+}
+.professionalSkills__text {
+  font-size: 30px;
+  position: absolute;
+  top: 1254px;
+  left: 99px;
+  font-family: "Montserrat";
+}
+/*design*/
+.professionalSkills__design__text1 {
+  font-size: 12px;
+  font-family: "Montserrat";
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  line-height: 2.5;
+  position: absolute;
+  left: 96.812px;
+  top: 1306px;
+  z-index: 211;
+}
+.professionalSkills__design__text2 {
+  font-size: 12px;
+  font-family: "Montserrat";
+  color: black;
+  text-transform: uppercase;
+  line-height: 2.5;
+  position: absolute;
+  left: 213px;
+  top: 1306px;
+}
+.professionalSkills__design__row1 {
+  background-color: rgb(216, 216, 216);
+  position: absolute;
+  left: 98px;
+  top: 1346px;
+  width: 500px;
+  height: 3px;
+}
+.professionalSkills__design__row2 {
+  background-color: rgb(16, 201, 195);
+  position: absolute;
+  left: 98px;
+  top: 1346px;
+  width: 336px;
+  height: 3px;
+}
+/*web development*/
+.professionalSkills__dev__text1 {
+  font-size: 12px;
+  font-family: "Montserrat";
+  color: black;
+  text-transform: uppercase;
+  line-height: 2.5;
+  position: absolute;
+  left: 96.812px;
+  top: 1390px;
+}
+.professionalSkills__dev__text2 {
+  font-size: 12px;
+  font-family: "Montserrat";
+  color: black;
+  text-transform: uppercase;
+  line-height: 2.5;
+  position: absolute;
+  left: 260px;
+  top: 1390px;
+}
+.professionalSkills__dev__row1 {
+  background: rgb(216, 216, 216);
+  position: absolute;
+  left: 98px;
+  top: 1419px;
+  width: 500px;
+  height: 3px;
+}
+.professionalSkills__dev__row2 {
+  background: rgb(16, 201, 195);
+  position: absolute;
+  left: 98px;
+  top: 1419px;
+  width: 428px;
+  height: 3px;
+}
+.professionalSkills__mark__text1 {
+  font-size: 12px;
+  font-family: "Montserrat";
+  color: black;
+  text-transform: uppercase;
+  line-height: 2.5;
+  position: absolute;
+  left: 96.812px;
+  top: 1463px;
+}
+.professionalSkills__mark__text2 {
+  font-size: 12px;
+  font-family: "Montserrat";
+  color: black;
+  text-transform: uppercase;
+  line-height: 2.5;
+  position: absolute;
+  left: 200px;
+  top: 1463px;
+}
+.professionalSkills__mark__row1 {
+  background: rgb(216, 216, 216);
+  position: absolute;
+  left: 98px;
+  top: 1492px;
+  width: 500px;
+  height: 3px;
+}
+.professionalSkills__mark__row2 {
+  background: rgb(16, 201, 195);
+  position: absolute;
+  left: 98px;
+  top: 1492px;
+  width: 280px;
+  height: 3px;
+}
+/*проделанная работа*/
+.numbers__bg {
+  background-color: rgb(16, 201, 195);
+  position: absolute;
+  top: 1657px;
+  left: 0px;
+  height: 242px;
+  width: 100%;
+}
+.numbers__portfolio {
+  font-size: 48px;
+  font-family: "Pe";
+  color: rgb(207, 206, 206);
+  line-height: 0.625;
+  position: absolute;
+  left: 101.737px;
+  top: 1764px;
+}
+
+.numbers__prcomp__num {
+  font-size: 18px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 1.667;
+  text-align: left;
+  position: absolute;
+  left: 168.687px;
+  top: 1751.497px;
+}
+.numbers__prcomp {
+  font-size: 12px;
+  font-family: "Montserrat";
+  color: white;
+  text-transform: uppercase;
+  text-align: left;
+  position: absolute;
+  left: 168.687px;
+  top: 1789px;
+}
+.numbers__clock {
+  font-size: 48px;
+  font-family: "Pe";
+  color: rgb(207, 206, 206);
+  line-height: 0.625;
+  position: absolute;
+  left: 404px;
+  top: 1764px;
+}
+.numbers__workhours__num {
+  font-size: 18px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 1.667;
+  text-align: left;
+  position: absolute;
+  left: 468.859px;
+  top: 1751.497px;
+}
+.numbers__workhours {
+  font-size: 12px;
+  font-family: "Montserrat";
+  color: white;
+  text-transform: uppercase;
+  text-align: left;
+  position: absolute;
+  left: 468.857;
+  top: 1789px;
+}
+.numbers__star {
+  font-size: 48px;
+  font-family: "Pe";
+  color: rgb(207, 206, 206);
+  line-height: 0.625;
+  position: absolute;
+  left: 702px;
+  top: 1764px;
+}
+.numbers__feedbacks__num {
+  font-size: 18px;
+  font-family: "Montserrat";
+  color: white;
+  text-transform: uppercase;
+  line-height: 1.667;
+  text-align: left;
+  position: absolute;
+  left: 768.141px;
+  top: 1751.497px;
+}
+.numbers__feedbacks {
+  font-size: 12px;
+  font-family: "Montserrat";
+  color: white;
+  text-transform: uppercase;
+  text-align: left;
+  position: absolute;
+  left: 768.141px;
+  top: 1789px;
+}
+.numbers__heart {
+  font-size: 48px;
+  font-family: "Pe";
+  color: rgb(207, 206, 206);
+  line-height: 0.625;
+  position: absolute;
+  left: 1001px;
+  top: 1764px;
+}
+.numbers__clients__num {
+  font-size: 18px;
+  font-family: "Montserrat";
+  color: white;
+  text-transform: uppercase;
+  line-height: 1.667;
+  text-align: left;
+  position: absolute;
+  left: 1067px;
+  top: 1751.497px;
+}
+.numbers__clients {
+  font-size: 12px;
+  font-family: "Montserrat";
+  color: white;
+  text-transform: uppercase;
+  text-align: left;
+  position: absolute;
+  left: 1067px;
+  top: 1789px;
+}
+.website__photos1 {
+  background-color: rgb(131, 131, 131);
+  position: absolute;
+  left: 0px;
+  top: 1899px;
+  width: 25%;
+  height: 300px;
+}
+.website__photos2 {
+  background-color: gray;
+  position: absolute;
+  top: 1899px;
+  left: 25%;
+  width: 25%;
+  height: 300px;
+}
